@@ -1,3 +1,30 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Trocchi&display=swap');
+
+$primary: #CE8800;
+$secondary: #E01F73;
+$tertiary: #6BCBF4;
+
+$font-family-sans-serif: "Inter", sans-serif;
+$font-family-serif: "Trocchi", serif;
+
+$nav-link-color: #E01F73;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Trocchi", serif;
+    color: $primary; 
+    }
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+// Add additional custom code here
+#hero {
+    height: 600px;
+    background-image: url(../images/dessert-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 

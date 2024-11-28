@@ -1,41 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="scss/custom.scss"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strawberry Blonde Bakery</title>
+  <link rel="stylesheet" href="css/custom.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+
 </head>
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <div class="container px-4">
-        <a class="navbar-brand" href="#">Company logo</a>
+<body class="">
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand px-4" href="#">
+          <img src="images/sbb.png" alt="Logo" width="175">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ps-4-lg">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 2</a>
-            </li>
-          </ul>
 
           <div class="d-inline-flex flex-column flex-lg-row ms-auto">
-            <button type="button" class="btn btn-sm btn-secondary mb-2 mb-lg-0 me-2">Login</button>
-            <button type="button" class="btn btn-sm btn-primary">Sign-up</button>
+            <ul class="navbar-nav ps-4-lg">
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Order</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ps-4-lg ms-3" >
+              <li class="nav-item me-2">
+                <a class="nav-link" href="#" alt="Search"> <img src="images/magnifying-glass-solid.svg" width="25px"></a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link" href="#" alt="Cart"> <img src="images/cart-shopping-solid.svg" width="25px">  </a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link" href="#" alt="Account"> <img src="images/user-solid.svg" width="25px"> </a>
+              </li>
+            </ul>
+            
+            
           </div>
         </div> 
       </div>
     </nav> 
   </header>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <main>
+    <section id="hero">
+      <div class="container-lg py-5">
+        <div class="row d-flex justify-content-start text-start py-5">
+          <div class="col-lg-6 py-5">
+            <h1 class="mb-3 text-primary">Pumpkin Spice & Everything Nice!</h1>
+            <p class="lead">Fall into the flavours of the season with our deliciously crafted baked goods! No matter your dietary needs, we’re sure you’ll find something to satisfy your cravings at our bakery. </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-md px-4 me-md-2 text-light">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-lg py-5">
+        <div class="d-flex flex-column flex-lg-row">
+          <div class=" col-12 col-lg-6">
+            <img class="img-fluid" src="images/dessert-3.jpg" width="650px" alt="Iced Pumpkin Square">
+          </div>
+          <div class="col-lg-6 px-3 d-flex flex-column justify-content-center text-end">
+            <h2 class="text-primary">Seasonal Specials</h2>
+            <p>We offer a variety of baked goods for you to enjoy this autumn. Filled with delicious fall flavours of pumpkin, apple and warm spices, this selection of seasonal treats will have you coming back for seconds and then some! </p>
+            <div>
+              <button type="button" class="btn btn-primary btn-md text-light">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-lg py-5">
+        <div class="d-flex flex-column flex-lg-row">
+          <div class="col-lg-6 px-3 d-flex flex-column justify-content-center text-start">
+            <h2 class="text-primary">What We Do</h2>
+            <p>Strawberry Blonde’s mission is to create a place where people with alternative diets and food allergies can buy a treat without having to worry about cross contamination, while also not having to compromise on taste or aesthetics. </p>
+            <b class="py-3">Absolutely everything we do is vegan, gluten-free, nut free, and kosher!</b>
+            <div>
+              <button type="button" class="btn btn-primary btn-md text-light">Learn More</button>
+            </div>
+          </div>
+          <div class=" col-12 col-lg-6">
+            <img class="img-fluid" src="images/sugar-cookies-widescreen.jpg" width="650px" alt="Iced Pumpkin Square">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+
+   
+
+
+
+  <footer class="py-3 tertiary-bg">
+    <div class="container">
+      <p class="text-center text-light">&copy; 2023 Company, Inc. All rights reserved.</p>
+    </div>  
+  </footer>
+
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
