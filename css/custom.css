@@ -11851,11 +11851,49 @@ textarea.form-control-lg {
   }
 }
 #hero {
-  height: 600px;
-  background-image: url(../images/dessert-6.jpg);
+  height: 750px;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255)), url(../images/dessert-6.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.nav-link {
+  color: #E01F73;
+}
+
+.nav-link-footer {
+  font-weight: 500;
+  color: white !important;
+}
+
+.footer {
+  background-color: #6BCBF4;
+}
+
+.hero-text {
+  margin-top: 5em;
+}
+
+#seasonal-specials {
+  padding-top: 7.5em;
+  padding-bottom: 7.5em;
+}
+
+#what-we-do {
+  padding-top: 7.5em;
+  padding-bottom: 7.5em;
+  background-color: rgba(206, 136, 0, 0.1);
+}
+
+@media (max-width: 991px) {
+  #hero {
+    height: 600px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9), rgb(255, 255, 255)), url(../images/dessert-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */

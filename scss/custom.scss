@@ -20,11 +20,47 @@ h1, h2, h3, h4, h5, h6 {
 
 // Add additional custom code here
 #hero {
-    height: 600px;
-    background-image: url(../images/dessert-6.jpg);
+    height: 750px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)),url(../images/dessert-6.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+.nav-link {
+    color: $secondary;
+}
 
+.nav-link-footer {
+    font-weight: 500;
+    color: white !important;
+}
+
+.footer {
+    background-color: $tertiary;
+}
+
+.hero-text {
+    margin-top: 5em;
+}
+
+#seasonal-specials {
+    padding-top: 7.5em;
+    padding-bottom: 7.5em;
+}
+
+#what-we-do {
+    padding-top: 7.5em;
+    padding-bottom: 7.5em;
+    background-color: rgba($color: $primary, $alpha: 0.1);
+}
+
+@media (max-width: 991px){
+    #hero {
+        height: 600px;
+        background-image: linear-gradient(to left, rgba(255, 255, 255, .6), rgba(255, 255, 255, .9), rgba(255, 255, 255, 1)),url(../images/dessert-6.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
