@@ -11886,6 +11886,62 @@ textarea.form-control-lg {
   background-color: rgba(206, 136, 0, 0.1);
 }
 
+.carousel-width {
+  width: 450px;
+}
+
+#hero-2 {
+  height: 750px;
+  background-image: url(../images/coffee-and-apple-fritter.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#who-we-are {
+  padding-top: 7.5em;
+  padding-bottom: 7.5em;
+  background-color: rgba(206, 136, 0, 0.1);
+}
+
+#mission-statement {
+  padding-top: 7.5em;
+  padding-bottom: 7.5em;
+}
+
+#catering {
+  padding-top: 7.5em;
+  padding-bottom: 7.5em;
+  background-color: rgba(206, 136, 0, 0.1);
+}
+
+#wholesale {
+  padding-top: 7.5em;
+  padding-bottom: 7.5em;
+}
+
+#hero-3 {
+  height: 750px;
+  background-image: url(../images/dessert-8.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#pickup-delivery {
+  padding-top: 7.5em;
+  padding-bottom: 7.5em;
+  background-color: rgba(206, 136, 0, 0.1);
+}
+
+.hero-card {
+  justify-content: center;
+  background-color: rgba(206, 136, 0, 0.8);
+  z-index: 2;
+  border-radius: 8px;
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   #hero {
     height: 600px;
@@ -11894,6 +11950,10 @@ textarea.form-control-lg {
     background-position: center;
     background-size: cover;
   }
+}
+.footer-social-links {
+  width: 100px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=custom.css.map */
